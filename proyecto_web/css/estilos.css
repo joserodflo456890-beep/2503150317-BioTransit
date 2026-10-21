@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f4;
+    color: #263b3b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #123b40;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 5px;
+}
+
+nav {
+    background-color: #1d5557;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8ee6c2;
+}
+
+section {
+    background-color: white;
+    width: 85%;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #17665d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 12px;
+}
+
+.principal {
+    background-color: #d8f1e7;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+.principal h2 {
+    color: #123b40;
+    font-size: 30px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #1d7770;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #14554f;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.tarjeta {
+    background-color: #e7f5ef;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 8px;
+    flex: 1;
+}
+
+.tarjeta h3 {
+    color: #17665d;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b5c9c3;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+button {
+    background-color: #1d7770;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #14554f;
+}
+
+footer {
+    background-color: #123b40;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* Seccion para lo del registro  que es para regstrar */
+.ir-registro {
+    background-color: #d8f1e7;
+    text-align: center;
+    padding: 25px;
+}
+
+.ir-registro p {
+    margin-bottom: 15px;
+}
+
+.formulario-registro {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formulario-registro h2 {
+    color: #17665d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formulario-registro p {
+    margin-bottom: 15px;
+}
+
+.formulario-registro label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario-registro input,
+.formulario-registro select,
+.formulario-registro textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #b5c9c3;
+    border-radius: 5px;
+}
+
+.formulario-registro button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #1d7770;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario-registro button:hover {
+    background-color: #14554f;
+}
+
+.volver {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #17665d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.volver:hover {
+    text-decoration: underline;
+}
